@@ -1,0 +1,3 @@
+This project was done with the following [Kaggle dataset](https://www.kaggle.com/datasets/ihelon/lego-minifigures-classification). It consist of 37 different LEGO figures (classes) with a total of 405 images, these are quite a few for a computer vision problem, so I learned how to do data augmentation using Tensorflow. 
+
+Another thing to note is that the data from Kaggle has a different tree structure, I changed it using some Python modules like `pandas`, `os` and `shutil`, the `processing_data.ipynb` notebook show how it was done in order to have the tree structure in the `data` directory. I did it this way for Tensorflow to load more easily the images nd the belonging class. 
